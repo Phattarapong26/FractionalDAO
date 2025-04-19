@@ -426,4 +426,4 @@ describe("FractionalDAO", function () {
 
 ---
 
-หากมีคำถามหรือข้อเสนอแนะเกี่ยวกับการพัฒนา กรุณาเปิด Issue ใน GitHub Repository หรือติดต่อทีมพัฒนาที่ [dev@example.com](mailto:dev@example.com) 
+หากมีคำถามหรือข้อเสนอแนะเกี่ยวกับการพัฒนา กรุณาเปิด Issue ใน GitHub Repository หรือติดต่อทีมพัฒนาที่ [phattarapong.phe@spumail.net](mailto:phattarapong.phe@spumail.net) 
