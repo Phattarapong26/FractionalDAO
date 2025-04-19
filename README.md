@@ -46,7 +46,9 @@ SmartContractMD/
 │   └── smartContract.sol # ไฟล์ Smart Contract
 ├── public/               # Assets สาธารณะ
 ├── docs/                 # เอกสารประกอบโปรเจค
-│   └── SMART_CONTRACT.md # เอกสารอธิบาย Smart Contract
+│   ├── SMART_CONTRACT.md # เอกสารอธิบาย Smart Contract
+│   ├── USER_GUIDE.md     # คู่มือการใช้งานสำหรับผู้ใช้ทั่วไป
+│   └── DEVELOPER.md      # เอกสารสำหรับนักพัฒนา
 └── ...                   # ไฟล์การกำหนดค่าต่างๆ
 ```
 
@@ -56,6 +58,8 @@ SmartContractMD/
 2. ดำเนินการโต้ตอบกับ Smart Contract ผ่านอินเตอร์เฟซที่ใช้งานง่าย
 3. ดูข้อมูลและธุรกรรมที่บันทึกบน Blockchain
 
+ดูรายละเอียดเพิ่มเติมได้ที่ [คู่มือการใช้งาน](docs/USER_GUIDE.md)
+
 ## 📝 วิธีมีส่วนร่วมในการพัฒนา
 
 การมีส่วนร่วมในโปรเจคนี้ยินดีต้อนรับเสมอ! เรียนรู้เพิ่มเติมได้ที่ [CONTRIBUTING.md](CONTRIBUTING.md)
@@ -63,8 +67,8 @@ SmartContractMD/
 ## 📄 เอกสารเพิ่มเติม
 
 - [รายละเอียด Smart Contract](docs/SMART_CONTRACT.md) - เอกสารอธิบายการทำงานของ Smart Contract
-- [คู่มือการใช้งาน](https://example.com/user-guide) - สำหรับผู้ใช้งานทั่วไป
-- [เอกสารสำหรับนักพัฒนา](https://example.com/dev-docs) - รายละเอียดสำหรับนักพัฒนา
+- [คู่มือการใช้งาน](docs/USER_GUIDE.md) - สำหรับผู้ใช้งานทั่วไป
+- [เอกสารสำหรับนักพัฒนา](docs/DEVELOPER.md) - รายละเอียดสำหรับนักพัฒนา
 
 ## 📄 ลิขสิทธิ์
 
@@ -72,7 +76,7 @@ SmartContractMD/
 
 ## 📞 ติดต่อ
 
-หากคุณมีคำถามหรือข้อเสนอแนะ กรุณาเปิด Issue ใน GitHub Repository นี้ หรือติดต่อเราที่ [อีเมล](mailto:your.email@example.com)
+หากคุณมีคำถามหรือข้อเสนอแนะ กรุณาเปิด Issue ใน GitHub Repository นี้ หรือติดต่อเราที่ [อีเมล](mailto:support@example.com)
 
 ---
 
