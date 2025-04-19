@@ -19,8 +19,13 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <Sparkles className="h-6 w-6 mr-2 text-indigo-500" />
-                <span className="text-xl font-bold text-indigo-600">FractionalDAO</span>
+                <img 
+                width={150} 
+                height={150} 
+                className="text-dao mr-2" 
+                src="https://github.com/Phattarapong26/image/blob/main/Screenshot%202568-02-03%20at%2018.03.49.png?raw=true" 
+                alt="FractionalDAO Logo" 
+              />
               </div>
               <p className="text-sm text-gray-500 mb-4">
                 แพลตฟอร์มที่ช่วยให้ผู้ใช้สามารถเข้าถึงการลงทุนในสินทรัพย์ได้อย่างง่ายดายผ่าน Smart Contracts
