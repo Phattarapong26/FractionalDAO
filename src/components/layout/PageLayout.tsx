@@ -19,8 +19,8 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
 
           <div className="border-t border-gray-200 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
             <img
-              width={150}
-              height={150}
+              width={100}
+              height={100}
               className="text-dao mr-2"
               src="https://github.com/Phattarapong26/image/blob/main/Screenshot%202568-02-03%20at%2018.03.49.png?raw=true"
               alt="FractionalDAO Logo"
