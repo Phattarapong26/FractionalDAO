@@ -33,12 +33,9 @@ const HeroSection: React.FC = () => {
               <Sparkles className="h-3.5 w-3.5 ml-1.5" />
             </div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-8 animate-fadeIn">
-              <span className="block text-gray-900">Fractional Platform</span>
-              <span className="block text-indigo-600 mt-2">ผ่าน <span className="relative">
+              <span className="block text-gray-900">Fractional Ownership</span>
+              <span className="block text-indigo-600 mt-2">ผ่าน<span className="relative">
                 การบริหารแบบ DAO
-                <svg className="absolute -bottom-1 left-0 w-full" viewBox="0 0 198 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 5.5C36.5 2 129.5 -0.5 197 3.5" stroke="#818cf8" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
               </span></span>
             </h1>
             <p className="text-lg text-gray-600 mb-10 animate-fadeIn animate-delay-100">
