@@ -76,7 +76,7 @@ SmartContractMD/
 
 ## 📞 ติดต่อ
 
-หากคุณมีคำถามหรือข้อเสนอแนะ กรุณาเปิด Issue ใน GitHub Repository นี้ หรือติดต่อเราที่ [อีเมล](mailto:support@example.com)
+หากคุณมีคำถามหรือข้อเสนอแนะ กรุณาเปิด Issue ใน GitHub Repository นี้ หรือติดต่อเราที่ [อีเมล](mailto:phattarapong.phe@spumail.net)
 
 ---
 
