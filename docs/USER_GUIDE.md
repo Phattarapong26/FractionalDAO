@@ -109,11 +109,9 @@
 **A**: ผลตอบแทนจะถูกจ่ายตามที่กำหนดไว้ในแต่ละสินทรัพย์ โดยทั่วไปจะเป็นรายเดือนหรือรายไตรมาส
 
 ### Q: หากฉันมีปัญหาหรือคำถามเพิ่มเติม ฉันควรทำอย่างไร?
-**A**: คุณสามารถติดต่อทีมสนับสนุนได้ที่ [support@example.com](mailto:phattarapong.phe@spumail.net) หรือเข้าร่วมช่อง Discord ของเรา
+**A**: คุณสามารถติดต่อทีมสนับสนุนได้ที่ [phattarapong.phe@spumail.net](mailto:phattarapong.phe@spumail.net) หรือเข้าร่วมช่อง Discord ของเรา
 
 ---
 
 **เอกสารอ้างอิงเพิ่มเติม**:
-- [เอกสาร Smart Contract](SMART_CONTRACT.md)
-- [คำถามที่พบบ่อย](https://example.com/faq)
-- [วีดีโอสอนการใช้งาน](https://example.com/tutorials) 
+- [เอกสาร Smart Contract](SMART_CONTRACT.md) 
