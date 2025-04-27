@@ -14,10 +14,10 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
       <main className="flex-1">
         {children}
       </main>
-      <footer className="py-8 bg-white border-t border-gray-200">
+      <footer className="py-8 bg-white">
         <div className="container px-4 mx-auto">
 
-          <div className="border-t border-gray-200 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
+          <div className=" mt-8 pb-8  flex flex-col md:flex-row justify-between items-center">
             <img
               width={100}
               height={100}
@@ -25,18 +25,18 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
               src="https://github.com/Phattarapong26/image/blob/main/Screenshot%202568-02-03%20at%2018.03.49.png?raw=true"
               alt="FractionalDAO Logo"
             />
-            <p className="text-sm text-gray-500">
-              © 2025 FractionalDAO. สงวนลิขสิทธิ์ทั้งหมด
+            <p className="text-sm text-gray-500 text-center">
+              © 2025 FractionalDAO. สงวนลิขสิทธิ์ทั้งหมด <br></br><p className="text-yellow-500">The system is for educational purposes only</p>
             </p>
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
-              <a href="https://github.com/Phattarapong26/SmartContract" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600">
+              <a href="https://github.com/Phattarapong26/FractionalDAO" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600">
                 <Github className="h-5 w-5" />
               </a>
               <a href="#" className="text-xs text-gray-500 hover:text-indigo-600">
                 ช่วยเหลือ
               </a>
               <span className="text-gray-300">|</span>
-              <a href="#" className="text-xs text-gray-500 hover:text-indigo-600">
+              <a href="https://github.com/Phattarapong26/FractionalDAO" className="text-xs text-gray-500 hover:text-indigo-600">
                 ติดต่อเรา
               </a>
             </div>

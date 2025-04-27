@@ -41,7 +41,9 @@ const HeroSection: React.FC = () => {
             <p className="text-lg text-gray-600 mb-10 animate-fadeIn animate-delay-100">
               เป็นเจ้าของสินทรัพย์ร่วมกัน ลงคะแนนในการตัดสินใจเกี่ยวกับการบริหาร <br></br> และรับรายได้แบบ Passive income ผ่านแพลตฟอร์มแบบกระจายอำนาจของเรา
             </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fadeIn animate-delay-200 mb-[40px] mt-[130px]">
+            <p className="text-lg text-blue-600 mb-10 animate-fadeIn animate-delay-100">The system is for educational purposes only <br></br> by Computure science SPU.</p>
+            
+            <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fadeIn animate-delay-200 mb-[40px] mt-[80px]">
               <Button asChild size="lg" className="px-8 bg-indigo-600 hover:bg-indigo-700 shadow-lg shadow-indigo-200 transition-all duration-300 hover:translate-y-[-2px]">
                 <Link to="/marketplace" className="flex items-center">
                   <Building2 className="h-5 w-5 mr-2" />
@@ -70,7 +72,7 @@ const HeroSection: React.FC = () => {
             </div>
           </div>
           
-          <div className="flex flex-wrap justify-center mt-16 gap-8 w-full max-w-3xl mx-auto animate-fadeIn animate-delay-300">
+          <div className="flex flex-wrap justify-center mt-10 gap-8 w-full max-w-3xl mx-auto animate-fadeIn animate-delay-300">
             <div className="flex items-center">
               <div className="mr-3 w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center">
                 <Coins className="h-6 w-6 text-emerald-600" />
