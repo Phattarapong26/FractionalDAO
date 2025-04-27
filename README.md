@@ -2,6 +2,8 @@
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
+[▶️ **ทดลองใช้งาน FractionalDAO (คลิกที่นี่)**](https://phattarapong26.github.io/FractionalDAO/#/)
+
 FractionalDAO คือแพลตฟอร์มที่ช่วยให้ทุกคนสามารถร่วมลงทุนในสินทรัพย์จริง (Real World Asset) ได้อย่างโปร่งใส ปลอดภัย และไร้พรมแดน ด้วยพลังของ Blockchain และ Smart Contract
 
 ---
@@ -138,4 +140,7 @@ SmartContractMD/
 
 ---
 
-พัฒนาด้วย ❤️ โดยทีม SmartContractMD
+พัฒนาด้วย ❤️ โดยทีม Fundee FractionalDAO 
+
+Computer Science | SPU
+####เพื่อการศึกษาเท่านั้น!!!!
