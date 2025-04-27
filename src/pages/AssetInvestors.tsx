@@ -59,8 +59,7 @@ const AssetInvestors = () => {
   const [assetStatus, setAssetStatus] = useState<number>(0);
   const [distributionAmount, setDistributionAmount] = useState<string>("");
   const [isDistributing, setIsDistributing] = useState(false);
-  const [distributeAmount, setDistributeAmount] = useState<string>("");
-  const [distributeError, setDistributeError] = useState<string>("");
+const [distributeError, setDistributeError] = useState<string>("");
   
   const fetchedRef = useRef(false);
 
@@ -239,18 +238,15 @@ const AssetInvestors = () => {
 
       // ให้ paramId เป็นตัวเลขแน่ๆ
       const assetIdNum = parseInt(paramId || "0");
-      
-      // แปลงค่าจำนวนเงินตาม decimals
-      // ใช้ ethers.utils.parseUnits เพื่อแปลงค่าจากทศนิยมเป็นจำนวนเต็มตาม decimals
-      const amountInTokenDecimals = ethers.utils.parseUnits(
-        distributionAmount, 
-        usdtDecimals || 18 // ใช้ค่าเริ่มต้น 18 หากไม่มีค่า decimals
-      ).toString();
-      
-      console.log("จำนวนเงินที่จะจ่าย (ตาม decimals):", amountInTokenDecimals);
-      
-      // จ่ายผลตอบแทนด้วยค่าที่แปลงแล้ว
-      await distributeEarnings(assetIdNum, amountInTokenDecimals);
+           // ส่ง distributionAmount เป็น string ปกติ เช่น "100.50" ไปให้ distributeEarnings
+      // ไม่ต้อง parseUnits ในหน้านี้ ให้ ContractContext เป็นคนแปลง
+      if (isNaN(Number(distributionAmount)) || Number(distributionAmount) <= 0) {
+        toast.error("จำนวนเงินต้องเป็นตัวเลขมากกว่า 0");
+        setIsDistributing(false);
+        return;
+      }
+      console.log("จำนวนเงินที่จะจ่าย (string):", distributionAmount);
+      await distributeEarnings(assetIdNum, distributionAmount);
       
       // หลังจากจ่ายผลตอบแทนสำเร็จ ล้างค่า input
       setDistributionAmount("");
@@ -433,15 +429,15 @@ const AssetInvestors = () => {
                         type="number"
                         min="0"
                         step="0.01"
-                        value={distributeAmount}
-                        onChange={(e) => setDistributeAmount(e.target.value)}
+                        value={distributionAmount}
+                        onChange={(e) => setDistributionAmount(e.target.value)}
                         className="border-gray-300 focus:border-indigo-500"
                         placeholder="ระบุจำนวนเงิน"
                       />
                     </div>
                     <Button 
                       onClick={handleDistributeEarnings} 
-                      disabled={parseFloat(distributeAmount) <= 0 || isDistributing} 
+                      disabled={parseFloat(distributionAmount) <= 0 || isDistributing} 
                       className="bg-indigo-600 hover:bg-indigo-700 text-white h-10"
                     >
                       {isDistributing ? (
